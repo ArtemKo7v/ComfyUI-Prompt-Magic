@@ -40,7 +40,7 @@ def load_config() -> dict[str, Any]:
 CONFIG = load_config()
 
 
-class PromptMagicEmptyString:
+class ArtemKo7vPromptMagicEmptyString:
     CATEGORY = "ArtemKo7v"
     RETURN_TYPES = ("STRING",)
     RETURN_NAMES = ("string",)
@@ -55,9 +55,9 @@ class PromptMagicEmptyString:
 
 
 NODE_CLASS_MAPPINGS = {
-    "PromptMagicEmptyString": PromptMagicEmptyString,
+    "ArtemKo7vPromptMagicEmptyString": ArtemKo7vPromptMagicEmptyString,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "PromptMagicEmptyString": "Prompt Magic Empty String",
+    "ArtemKo7vPromptMagicEmptyString": "Prompt Magic Empty String",
 }
